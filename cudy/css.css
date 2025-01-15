@@ -1,0 +1,320 @@
+.body1 {
+  width: 100vw; 
+  height: 100vh; 
+  margin: 0 auto;
+}
+
+.blok {
+  height: 20%; 
+  background-color: #90E8E3; 
+  font-family: "Comic Sans MS"; 
+  font-size: 100%; 
+  text-align: center;
+  background-size: contain; 
+  color: #333333; 
+  font-size: 6.5vw;
+}
+
+* {
+  padding: 0;
+}
+
+.stopka {
+  text-align: center;
+  height: 5%; 
+  clear: both; 
+  background-color: #4682b4;
+  color: white;
+}
+
+.cos {
+  width: 100%; 
+  height: 75%; 
+  float: right; 
+  background-color: #d3d3d3;
+}
+
+.dropbtn {
+  visibility: hidden;
+}
+
+.gi{font-size: 1vw; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; width: 40vw; height: 20vw; margin-top: 1vw; margin-left: 2vw;}
+
+.ciekaw{font-size: 1.5vw; margin-left: 2vw; margin-top: 15vh;}
+
+.ciekaw a{text-decoration: none;}
+
+.ciekaw a:hover{font-size: 1.7vw; transition: all 0.3s ease;}
+
+sub{font-size: 0.6vw;}
+
+.navvv1{position: fixed; width: 6vw; background-color: #4682b4; top: 95%; left: 88%; font-size: 0.8vw; font-size: 1.7vw;}
+.navvv2{position: fixed; width: 6vw; background-color: #4682b4; top: 95%; left: 94%;font-size: 0.8vw; font-size: 1.7vw;}
+.nonee{text-decoration: none; color: whitesmoke;}
+.mblok{cursor: pointer;}
+
+.nemo{width: 30vw; background-image: url(fotos/nemo.png); background-size: cover; height: 22vw;}
+
+.ramkag{border-color: black; border-style: solid; text-align: center;}
+
+.center{margin: auto;}
+
+.galtab{border-color: black; margin-left: auto; margin-right: auto; border-style: double; width: 60vw; height: 32vw;}
+
+.ramka{border-color: black; border-style: solid; text-align: center;}
+
+.mini{width: 7.5vw;}
+
+.normal{height: 20vw;}
+
+@media only screen and (max-width: 600px) {/*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+  
+  .normal{width: 90vw; height: auto;}
+
+  .galtab{width: 95vw; height: auto;}
+
+  .mini{width: 20vw;}
+
+  .ciekaw{font-size: 3vw;}
+
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #333333;
+  }
+    
+
+  .dropdown-content {
+    text-align: center;
+    display: none;
+    position: absolute;
+    background-color: #ffe4b5;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+    
+
+  .dropdown-content a {
+    color: #333333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+    
+
+  .dropdown-content a:hover {
+    background-color: #ff8c00;
+  }
+    
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+    
+
+  .dropdown:hover .dropbtn {
+    background-color: #ff8c00;
+  }
+
+  .dropbtn {
+    visibility: visible;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: #333333;
+  }
+
+  .blok {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(fotos/fish.jpg);
+    background-size: contain;
+    height: 15%;
+  }
+
+  .blokok {
+    width: 100vw; 
+    color: #f5f5f5;
+  }
+
+  .cos {
+    width: 100%; 
+    height: 80%; 
+    float: right; 
+    background-color: #d3d3d3;
+    text-align: center;
+  }
+  .domek {width: 50%;}
+
+  .gi {font-size: 3vw; width: 80%; margin-left: auto; margin-right: auto;}
+  .nemo{background-image: url(fotos/marlin.png); margin-top: 60%; margin-left: auto; margin-right: auto;}
+
+  .ciekaw{font-size: 4vw; bottom: 20vw; position: absolute; right: 80vw; left: 2%;}
+
+  .ciekaw a:hover{font-size: 4.5vw;}
+
+  sub{font-size: 2vw;}
+
+  .fish{width: 27vw; margin-top: 60%; margin-left: auto; margin-right: auto;}
+
+  .fishimg{width: 27vw;}
+
+  .navvv1{position: fixed; width: 10vw; background-color: #4682b4; top: 95%; left: 80%; font-size: 2.5vw;}
+  .navvv2{position: fixed; width: 10vw; background-color: #4682b4; top: 95%; left: 90%; font-size: 2.5vw;}
+
+
+
+  }
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) { /*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+
+  .galtab{height: 34vw; scale: 120%; margin-top: 10%;}
+
+  .gi{font-size: 1.5vw; float: left; margin-left: 8vw; scale: 130%; margin-top: 4vh; width: 50vw;}
+
+  .dropbtn {
+    position: absolute; 
+    top: -100%;
+    visibility: hidden;
+  }
+
+  .dropdown {
+    background-color: #77A5E6; 
+    height: 75vh; 
+    overflow: auto; 
+    width: 15%;
+  }
+
+  .dropdown-content {
+    background-color: #77A5E6; 
+    height: 5vh;
+  }
+
+  .blokok {
+    color: #f5f5f5;
+  }
+  .mblok {
+    width: 15vw; 
+    height: 7.5vh;
+    text-align: center;
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cos {
+    width: 85%;
+    height: 75%;
+    text-align: justify;
+    background-color: #BBD6E9;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+  }
+
+  .dropdown a {
+    transition: all 0.3s ease;
+    color: white
+  }
+
+  .mblok a {
+    text-decoration: none;
+  }
+  .mblok a:hover {
+    font-size: 1.8vw;
+  }
+  
+  .domek{height: 2.7vw;}
+
+  .domek:hover{height: 3.2vw; transition: all 0.3s ease;}
+
+  .nemo{background-image: url(fotos/dory.png); margin-top: -60vh; margin-left: 2vw;}
+
+  .ciekaw{font-size: 2.5vw; margin-right: 10vw; margin-top: 60vh; float: right;}
+
+  .ciekaw a:hover{font-size: 2.9vw;}
+
+  sub{font-size: 1vw;}
+
+  .fish{width: 27vw; margin-left: 2vw; margin-top: 45vh;}
+
+  .fishimg{width: 27vw;}
+
+  .navvv1{position: fixed; width: 6vw; background-color: #4682b4; top: 95%; left: 88%; font-size: 1.7vw;}
+  .navvv2{position: fixed; width: 6vw; background-color: #4682b4; top: 95%; left: 94%; font-size: 1.7vw;}
+  
+}
+
+@media only screen and (min-width: 1201px) { /*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+  .dropdown {
+    background-color: #77A5E6; 
+    height: 10vh; 
+    overflow: auto; 
+    width: 100%;
+  }
+
+  .dropdown-content {
+    background-color: #77A5E6; 
+    width: 100vw; 
+    display: flex; 
+    height: 5vh;
+  }
+
+  .blokok {
+    margin-left: auto; 
+    position: absolute; 
+    text-align: center; 
+    width: 100vw;
+  }
+
+  .mblok {
+    width: 10vw; 
+    text-align: center;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cos {
+    height: 65%;
+    text-align: justify;
+    background-color: #BBD6E9;
+  }
+
+  .dropdown a {
+    transition: all 0.3s ease;
+    color: white
+  }
+
+  .mblok a {
+    text-decoration: none;
+  }
+  .mblok a:hover {
+    font-size: 1.8vw;
+  }
+  
+  .domek{height: 2.7vw;}
+
+  .domek:hover{height: 3.2vw; transition: all 0.3s ease;}
+
+  .fish{width: 27vw; margin-left: 52%; margin-top: -35vh;}
+
+  .fishimg{width: 27vw;}
+
+  .nemo{margin-top: -45vh; margin-left: 60vw;}
+
+  .ciekaw{font-size: 2.7vw; margin-top: 5vw;}
+
+  .ciekaw a:hover{font-size: 2.9vw;}
+
+  sub{font-size: 1vw;}
+
+  .gi{font-size: 1.2vw;}
+}
